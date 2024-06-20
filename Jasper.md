@@ -39,16 +39,16 @@ new java.io.ByteArrayInputStream(org.apache.commons.codec.binary.Base64.decodeBa
 ```
 
 - %dataSource% 子資料於主資料中的key，比方說主資料為
-	```json
-	{	
-  	header: {...},
-    footer: {...},
-  	data: [
-  		{...},
-  		{...}
-  	]
-  }
-  ```
+```json
+{	
+  header: {...},
+  footer: {...},
+  data: [
+    {...},
+    {...}
+  ]
+}
+```
   
   則%dataSource%填入"data"
 
